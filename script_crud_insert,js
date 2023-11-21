@@ -1,0 +1,43 @@
+$(function(){
+	$(document).on("submit", "#form_new_client", function(){
+		event.preventDefault();
+
+		$.ajax({
+			type: "POST",
+			url:"crud_insert.php",
+			data:$(this).serialize(),
+			success: function(response){
+			     $(".form-client").html(response);
+					 $('#form_new_client').each(function() {
+					 	this.reset();
+					 });
+			}
+		});
+	});
+});
+
+$(document).ready(function(){
+	$("#form_new_client").validate({
+		rules:{
+			nome:{
+				required: true,
+				minWords: 2
+			},
+			telefone:{
+				required: true,
+				phoneUS: true
+			},
+			endereco:{
+				required: true
+			},
+			email:{
+				required: true,
+				email: true
+			},
+		}
+	})
+});
+
+$(document).ready(function(){
+	$("#telefone").mask("(000) 000-0000");
+});
