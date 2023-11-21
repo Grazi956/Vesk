@@ -1,0 +1,161 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #e8e8ee;
+}
+
+
+.container {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.login-form {
+    background: linear-gradient(#9cd1fc,#2241eeec);	
+	position: relative;	
+	height: 600px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #bec1c4;
+	
+}
+.login-form input::placeholder{
+	color:#2e2d2d;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.login_form {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+ 
+
+#login_form {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.mb-3 {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #e91e63;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:hover {
+	outline: none;
+	border-bottom-color: #000000;
+	text-emphasis-color: rgb(0, 0, 0);
+}
+
+::placeholder{
+	color:#000000;
+}
+
+.login__submit {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #000000;
+	box-shadow: 0px 2px 2px #000000;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #1e1e1f;
+	outline: none;
+}
+/* Botão*/
+.btn-primary {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #000000;
+	box-shadow: 0px 2px 2px #000000;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.btn-primary:hover{
+	background-color: #d0d2d4;
+}
+
+
+
+
+
+
+
+
+
+.form-message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register-link p {
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+/* Responsividade */
