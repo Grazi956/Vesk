@@ -15,13 +15,13 @@ Subir o documento no docker (Linux)
 3. Escreva o seguinte código
    docker-compose up -d
 
-Abra um navegador e digite 
-localhost:8080
-Preencha o formulário conforme descrito abaixo
+1. Abra um navegador e digite localhost:8080
+2. Preencha o formulário conforme descrito abaixo
+usuário: root
+senha: 123
 
 
 
-Abra outra aba e digite
-localhost:8081
-Irá abrir a página de login do software de notas fiscais, entre com o usuário (gerentevesk) e com a senha (senha1);
-Assim você terá acesso para o cadastro de clientes e de notas fiscais nos perfis dos clientes(após o cadastro).
+1. Abra outra aba e digite localhost:8081
+2. Irá abrir a página de login do software de notas fiscais, entre com o usuário (gerentevesk) e com a senha (senha1);
+3. Assim você terá acesso para o cadastro de clientes e de notas fiscais nos perfis dos clientes(após o cadastro).
