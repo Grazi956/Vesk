@@ -18,11 +18,10 @@ Subir o documento no docker (Linux)
 Abra um navegador e digite 
 localhost:8080
 Preencha o formulário conforme descrito abaixo
- No 
+
 
 
 Abra outra aba e digite
 localhost:8081
-
-   
-   
+Irá abrir a página de login do software de notas fiscais, entre com o usuário (gerentevesk) e com a senha (senha1);
+Assim você terá acesso para o cadastro de clientes e de notas fiscais nos perfis dos clientes(após o cadastro).
